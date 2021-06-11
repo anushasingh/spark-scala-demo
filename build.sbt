@@ -9,5 +9,6 @@ val sparkVersion = "3.0.0"
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
-   "com.microsoft.sqlserver" % "mssql-jdbc" % "7.2.1.jre8"
+   "com.microsoft.sqlserver" % "mssql-jdbc" % "7.2.1.jre8",
+    "com.databricks" % "dbutils-api_2.12" % "0.0.5"
 )

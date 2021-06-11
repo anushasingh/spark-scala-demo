@@ -9,7 +9,6 @@ trait ReportRegistryComponent {
   class ReportRegistryService {
     def runReports(): Unit = {
       userExpenseReportService.generateReport()
-      spark.close()
     }
   }
 
